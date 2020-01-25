@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
-  sha256: 5623a30942242336121a2394e4279861f7c7cf5643aca26fac5bccda49db6461
+  sha256: 6b1aac26da297cfb86bcf3122c16768fbb2bc70fe7a4774f7639f2f828892f7d
 
 build:
   number: 0

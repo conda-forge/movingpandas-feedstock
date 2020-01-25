@@ -1,4 +1,4 @@
-{% set version = "0.1.dev2" %}
+{% set version = "0.2rc1" %}
 
 package:
   name: movingpandas
@@ -24,8 +24,10 @@ requirements:
     - shapely
     - geopandas
     - matplotlib-base
-    - contextily
-    - descartes
+    - hvplot
+    - cartopy
+    - geoviews
+    - pyproj
 
 test:
   imports:

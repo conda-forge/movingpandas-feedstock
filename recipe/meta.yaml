@@ -25,7 +25,7 @@ requirements:
     - geopandas
     - matplotlib-base
     - hvplot
-    - bokeh 
+    - bokeh
     - cartopy
     - geoviews
     - pyproj

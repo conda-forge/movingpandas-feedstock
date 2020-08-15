@@ -5,7 +5,7 @@ Home: https://github.com/anitagraser/movingpandas
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Implementation of Trajectory classes and functions built on top of GeoPandas
 

@@ -29,6 +29,7 @@ requirements:
     - cartopy
     - geoviews
     - pyproj
+    - geopy
 
 test:
   imports:

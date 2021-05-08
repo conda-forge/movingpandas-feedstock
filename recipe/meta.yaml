@@ -1,4 +1,4 @@
-{% set version = "0.5rc1" %}
+{% set version = "0.6rc1" %}
 
 package:
   name: movingpandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
-  sha256: 34c38d9b70cc700232900bbe78c89717d2c346b16cfc723eab069c79cc57b1bb
+  sha256: f492692efde002aeb3030baed9175a85cf8f10556d4cd25c9e8dfe3a5acfe6a8
 
 build:
   number: 0

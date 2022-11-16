@@ -1,4 +1,4 @@
-{% set version = "0.11rc1" %}
+{% set version = "0.12rc1" %}
 
 package:
   name: movingpandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
-  sha256: bd37ff690bd4b5fef54d16a41c1d021d4e6453548b0da32c22665a650625a51e
+  sha256: c1b0b087010ca21c3a1af3fbdc379d72a9094ee94d2ee179a286b5d2f2190bf2
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
     - geopandas
     - matplotlib-base
     - hvplot
-    - bokeh
+    - bokeh <3.0
     - cartopy
     - geoviews
     - pyproj

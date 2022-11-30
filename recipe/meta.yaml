@@ -19,11 +19,13 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - geopandas
+    - fiona
+    - geopandas-base
     - geopy
     - matplotlib-base    
     - numpy
     - pandas
+    - rtree
     - shapely
 
 test:

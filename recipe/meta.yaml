@@ -1,4 +1,4 @@
-{% set version = "0.13rc1" %}
+{% set version = "0.14rc1" %}
 
 package:
   name: movingpandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
-  sha256: a975312250d2b50d9ed85fa2817276103d98183421ac4bbbf8752bba053900d6
+  sha256: 17e27b085c9971082aed21c1725cb8f79d5a099cdcca21563d75f0b7cd4abd82
 
 build:
   number: 0
@@ -22,11 +22,8 @@ requirements:
     - fiona
     - geopandas-base
     - geopy
-    - matplotlib-base    
-    - numpy
-    - pandas
+    - matplotlib-base
     - rtree
-    - shapely
 
 test:
   imports:

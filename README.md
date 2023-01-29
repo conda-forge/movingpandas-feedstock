@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@anitagraser](https://github.com/anitagraser/)
 * [@jorisvandenbossche](https://github.com/jorisvandenbossche/)
+* [@raybellwaves](https://github.com/raybellwaves/)
 

@@ -1,11 +1,11 @@
-About movingpandas
-==================
-
-Home: https://github.com/anitagraser/movingpandas
-
-Package license: BSD-3-Clause
+About movingpandas-feedstock
+============================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/movingpandas-feedstock/blob/main/LICENSE.txt)
+
+Home: https://github.com/movingpandas/movingpandas
+
+Package license: BSD-3-Clause
 
 Summary: MovingPandas implements Trajectory classes and corresponding methods based on GeoPandas
 

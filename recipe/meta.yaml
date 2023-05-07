@@ -1,4 +1,4 @@
-{% set version = "0.15rc1" %}
+{% set version = "0.16.0" %}
 
 package:
   name: movingpandas
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
-  sha256: 53b8eceaeec8a1c6f431874da6b63a3ca0ccca9a56c27ffd07c80a3b84194c1b
+  sha256: df88b887ebe51f3859f4e07aa4dc45c5de187f1c0e569a7bbba37f3b8f52b702
 
 build:
   number: 0
@@ -30,7 +30,7 @@ test:
     - movingpandas
 
 about:
-  home: https://github.com/anitagraser/movingpandas
+  home: https://github.com/movingpandas/movingpandas
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE.txt

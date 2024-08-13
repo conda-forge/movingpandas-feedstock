@@ -7,7 +7,7 @@ Home: https://github.com/movingpandas/movingpandas
 
 Package license: BSD-3-Clause
 
-Summary: MovingPandas implements Trajectory classes and corresponding methods based on GeoPandas
+Summary: MovingPandas provides trajectory data structures and functions for handling movement data
 
 Current build status
 ====================

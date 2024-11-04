@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
   sha256: 9695e70ac46799f347dcc5c95a23c1d2efcee4cfb2b86d0c5e9766163c27e2d3
 
 build:
@@ -19,7 +19,6 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - fiona
     - geopandas-base
     - geopy
     - matplotlib-base

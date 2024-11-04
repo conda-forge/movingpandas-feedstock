@@ -23,6 +23,7 @@ requirements:
     - geopandas-base
     - geopy
     - matplotlib-base
+    - pyproj
 
 test:
   imports:

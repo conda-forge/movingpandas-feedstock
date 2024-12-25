@@ -9,23 +9,25 @@ source:
   sha256: 9695e70ac46799f347dcc5c95a23c1d2efcee4cfb2b86d0c5e9766163c27e2d3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - geopandas-base
     - geopy
     - matplotlib-base
     - pyproj
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - movingpandas
 

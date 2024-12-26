@@ -1,5 +1,5 @@
 {% set version = "0.20.0" %}
-{% set python_min = "3.7" %}
+{% set python_min = "3.8" %}
 
 package:
   name: movingpandas

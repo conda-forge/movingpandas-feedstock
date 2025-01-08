@@ -1,4 +1,4 @@
-{% set version = "0.21.1" %}
+{% set version = "0.21.2" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/movingpandas/movingpandas-{{ version }}.tar.gz
-  sha256: a61d06d14e18fbf17bd2ebef2c31d9b95da8909ad3cb94a8b876175916c155e9
+  sha256: 4c3fb2c703718c31ce79f3f1a8f291dcde7a907529952184979b11c964228b1c
 
 build:
   number: 0
